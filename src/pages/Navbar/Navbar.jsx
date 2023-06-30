@@ -24,26 +24,26 @@ import { HiOutlineDownload} from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 h-24 mb-4 flex-none">
+    <div className="navbar bg-black h-24 flex-none">
       <div className="navbar-start ps-6 flex-row">
         <img className="w-20 rounded-full" src="/public/Atish.jpg" alt="" />
         <div>
-          <p className="ps-4 text-2xl text-yellow-400 font-bold">Atish Dipankar</p>
-          <p className="ps-4 text-1xl">Junior Web Developer</p>
+          <p className="ps-4 text-2xl text-yellow-400 font-bold">Atish Dipankar Chakraborty</p>
+          <p className="ps-4 text-1xl text-white">Web Developer</p>
 
         </div>
       </div>
 
       <div className="navbar-center flex-auto items-center justify-center">
 
-        <ul className="menu menu-horizontal px-1 items-center justify-center">
+        <ul className="menu menu-horizontal px-1 items-center justify-center text-white text-1xl">
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/about'>About</Link></li>
           <li><Link to='/skills'>Skills</Link></li>
           <li><Link to='/projects'>Projects</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
         
-          <li><button onClick={handleDownload} className="btn btn-sm"><HiOutlineDownload></HiOutlineDownload> Download Resume</button></li>
+          <li><button onClick={handleDownload} className="btn btn-sm"><p className="text-yellow-600 font-extrabold text-xl"><HiOutlineDownload></HiOutlineDownload></p> Download Resume</button></li>
        
 
         </ul>

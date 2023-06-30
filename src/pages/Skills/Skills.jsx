@@ -1,11 +1,11 @@
 import { motion } from "framer-motion"
 
 const skillsName = [
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 85 },
-  { name: 'Tailwind', level: 80 },
-  { name: 'JavaScript', level: 65 },
-  { name: 'React', level: 70 }
+  { name: 'HTML 90%', level: 90 },
+  { name: 'CSS 85%', level: 85 },
+  { name: 'Tailwind 80%', level: 80 },
+  { name: 'JavaScript 65%', level: 65 },
+  { name: 'React 70%', level: 70 }
 ];
 
 const ProgressBar = ({ name, level }) => {
@@ -29,7 +29,7 @@ const Skills = () => {
         animate={{ opacity: 5, y: 0 }} // Target state of the animation
         transition={{ duration: 1 }} // Animation duration
       >
-    <div className="container mx-auto py-8 bg-base-200 px-12 my-8">
+    <div className=" py-8 bg-base-200 px-12 my-8">
       <h1 className="text-4xl font-bold mb-4 ">Personal Skills</h1>
       {skillsName.map((skill, index) => (
         <ProgressBar key={index} name={skill.name} level={skill.level} />
