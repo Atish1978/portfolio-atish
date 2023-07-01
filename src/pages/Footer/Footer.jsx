@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer px-20 py-10 bg-black text-neutral-content">
                 <div>
                     <img className="w-14 rounded-full" src="/Atish.jpg" alt="" />
-                    <p>Atish Dipankar Chakraborty<br /><span className='italic text-yellow-500'>Web Developer</span> </p>
+                    <p>Atish Dipankar Chakraborty<br /><span className='italic '>Web Developer</span> </p>
                 </div>
                 <div>
                     <span className="footer-title">My Social Sites</span>
