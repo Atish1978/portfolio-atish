@@ -36,16 +36,20 @@ const Navbar = () => {
 
       <div className="navbar-center flex-auto items-center justify-center">
 
-        <ul className="menu menu-horizontal px-1 items-center justify-center text-white text-1xl">
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><Link to='/skills'>Skills</Link></li>
-          <li><Link to='/projects'>Projects</Link></li>
-          <li><Link to='/contact'>Contact</Link></li>
-          <li><a rel="noreferrer" href="https://github.com/Atish1978" target="_blank">GitHub</a></li>
-
-          <li><button onClick={handleDownload} className="btn btn-sm"><p className="text-yellow-600 font-extrabold text-xl"><HiOutlineDownload></HiOutlineDownload></p>Resume</button></li>
+        <ul className="menu menu-horizontal px-1 items-center justify-center   text-white text-1xl">
+          <li className="hover:bg-yellow-500 rounded"><Link to='/'>Home</Link></li>
+          <li className="hover:bg-yellow-500 rounded"><Link to='/about'>About</Link></li>
+          <li className="hover:bg-yellow-500 rounded"><Link to='/skills'>Skills</Link></li>
+          <li className="hover:bg-yellow-500 rounded"><Link to='/projects'>Projects</Link></li>
+          <li className="hover:bg-yellow-500 rounded"><Link to='/contact'>Contact</Link></li>
+         
         </ul>
+        <div>
+        <button className="btn btn-sm mr-2"><a rel="noreferrer" href="https://github.com/Atish1978" target="_blank">GitHub</a></button>
+        </div>
+        <div>
+        <button onClick={handleDownload} className="btn btn-sm"><p className="text-yellow-600 font-extrabold text-xl"><HiOutlineDownload></HiOutlineDownload></p>Resume</button>
+        </div>
       </div>
     </div>
   );

@@ -27,7 +27,8 @@ const Contact = () => {
                         className="rounded-lg shadow-lg"
                     ></iframe>
                     <div className="pr-20">
-                        <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
+                        <h1 className="text-4xl font-bold mb-2">Get in Touch</h1>
+                        <hr className="border-b-4 border-yellow-500 w-28 mt-2 mb-4" />
                         <div className="flex gap-2 items-center text-xl mt-2">
                             <p className="text-yellow-500 font-bold"><HiOutlineLocationMarker></HiOutlineLocationMarker> </p>
                             <p>Sunrise Tower, Flat # 6/C, Pathantula, Sylhet-3100</p>

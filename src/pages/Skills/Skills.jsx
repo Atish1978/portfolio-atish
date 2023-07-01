@@ -31,7 +31,8 @@ const Skills = () => {
         transition={{ duration: 1 }} // Animation duration
       >
     <div className=" py-8 bg-base-200 px-12 my-8">
-      <h1 className="text-4xl font-bold mb-4 ">Personal Skills</h1>
+      <h1 className="text-4xl font-bold mb-2 ">Personal Skills</h1>
+      <hr className="border-b-4 border-yellow-500 w-28 mt-2 mb-4" />
       {skillsName.map((skill, index) => (
         <ProgressBar key={index} name={skill.name} level={skill.level} />
       ))}
