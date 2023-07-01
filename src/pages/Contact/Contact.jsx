@@ -1,5 +1,6 @@
 import { HiOutlineLocationMarker, HiOutlineMail, HiOutlinePhoneIncoming } from "react-icons/hi";
 import { motion } from "framer-motion"
+import { TiSocialFacebook, TiSocialLinkedin, TiSocialTwitter } from 'react-icons/ti';
 
 
 
@@ -25,19 +26,24 @@ const Contact = () => {
                         tabIndex="0"
                         className="rounded-lg shadow-lg"
                     ></iframe>
-                    <div>
-                        <h1 className="text-4xl font-bold mb-2">Get in Touch</h1>
-                        <div className="flex gap-2 items-center text-2xl mt-2">
+                    <div className="pr-20">
+                        <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
+                        <div className="flex gap-2 items-center text-xl mt-2">
                             <p className="text-yellow-500 font-bold"><HiOutlineLocationMarker></HiOutlineLocationMarker> </p>
-                            <p>Pathantula, Sylhet-3100 </p>
+                            <p>Sunrise Tower, Flat # 6/C, Pathantula, Sylhet-3100</p>
                         </div>
-                        <div className="flex gap-2 items-center text-2xl mt-2">
+                        <div className="flex gap-2 items-center text-xl mt-2">
                             <p className="text-yellow-500 font-bold"><HiOutlinePhoneIncoming></HiOutlinePhoneIncoming> </p>
                             <p>+8801712828878 </p>
                         </div>
-                        <div className="flex gap-2 items-center text-2xl mt-2">
+                        <div className="flex gap-2 items-center text-xl mt-2">
                             <p className="text-yellow-500 font-bold"><HiOutlineMail></HiOutlineMail> </p>
                             <p>atishanindya@gmail.com </p>
+                        </div>
+                        <div className="flex gap-8 mt-8 ps-8 text-yellow-500">
+                        <a rel="noreferrer" href="https://www.facebook.com/atish.chakraborty.71" target="_blank" className='text-4xl'><TiSocialFacebook></TiSocialFacebook></a>
+                       <a rel="noreferrer" href="https://twitter.com/AtishDi93284177" target="_blank" className='text-4xl'><TiSocialTwitter></TiSocialTwitter></a>
+                        <a rel="noreferrer" href="https://www.linkedin.com/in/atish-dipankar-695516190/" target="_blank"className='text-4xl'><TiSocialLinkedin></TiSocialLinkedin></a>
                         </div>
                     </div>
                 </div>

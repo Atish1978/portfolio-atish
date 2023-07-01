@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "projectName": "Brand New Group of Architects",
+        "img": "/public/Home Page-HTML-CSS.png",
+        "projectFeatures": [
+            "The site is developed by using HTML and CSS",
+            "There is Six sections designed by CSS",
+            "This is a mobile responsive lucrative site"
+        ],
+        "tools": "HTML | CSS",
+        "site": "https://atish1978.github.io/assignment-second"
+    },
+    {
+        "id": "2",
+        "projectName": "Area Calculator",
+        "img": "/public/Area-Calculator.png",
+        "projectFeatures": [
+            "Can be used for finding area of different shapes. It is limited to 6 types of shape.",
+            "One can calculate area of the shapes in a single page and Result can find in a single page at a time.",
+            "This is a Colorful site that would be very attractive for kids."
+        ],
+        "tools": "HTML | CSS | JavaScript",
+        "site": "https://fancy-cobbler-d2c5c3.netlify.app"
+    },
+    {
+        "id": "3",
+        "projectName": "School Summer Camp ",
+        "img": "/public/Summer-Camp-School.png",
+        "projectFeatures": [
+            "School summer camp for admission in different sports.",
+            "Student can select sports to get admission. They can complete admission completely from this site.",
+            "This site can use three types of users. Student, Instructor and Admin."
+        ],
+        "tools": "Tailwind CSS | DaisyUI | React | Imgbb | React Components | Vercel | Firebase | mongodb",
+        "site": "https://sports-summer-camp.web.app"
+    }
+]

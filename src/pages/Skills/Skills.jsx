@@ -4,6 +4,7 @@ const skillsName = [
   { name: 'HTML 90%', level: 90 },
   { name: 'CSS 85%', level: 85 },
   { name: 'Tailwind 80%', level: 80 },
+  { name: 'Bootstrap 75%', level: 75 },
   { name: 'JavaScript 65%', level: 65 },
   { name: 'React 70%', level: 70 }
 ];
