@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HiOutlineDownload } from "react-icons/hi";
+import "./Navbar.css";
 
 
 const handleDownload = () => {
@@ -24,7 +25,7 @@ const handleDownload = () => {
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-black h-24 flex-none">
+    <div className="navbar bg-black h-auto flex-none">
       <div className="navbar-start ps-6 flex-row">
         <img className="w-14 ms-8 rounded-full" src="/Atish.jpg" alt="" />
         <div>
@@ -42,14 +43,17 @@ const Navbar = () => {
           <li className="hover:bg-yellow-500 rounded"><Link to='/skills'>Skills</Link></li>
           <li className="hover:bg-yellow-500 rounded"><Link to='/projects'>Projects</Link></li>
           <li className="hover:bg-yellow-500 rounded"><Link to='/contact'>Contact</Link></li>
-         
+
         </ul>
-        <div>
-        <button className="btn btn-sm mr-2"><a rel="noreferrer" href="https://github.com/Atish1978" target="_blank">GitHub</a></button>
+        
+       <div className="flex gap-4">
+       <div >
+          <button className="btn btn-sm mr-2"><a rel="noreferrer" href="https://github.com/Atish1978" target="_blank">GitHub</a></button>
         </div>
-        <div>
-        <button onClick={handleDownload} className="btn btn-sm"><p className="text-yellow-600 font-extrabold text-xl"><HiOutlineDownload></HiOutlineDownload></p>Resume</button>
+        <div className="flex">
+          <button onClick={handleDownload} className="btn btn-sm"><p className="text-yellow-600 font-extrabold text-xl"><HiOutlineDownload></HiOutlineDownload></p>Resume</button>
         </div>
+       </div>
       </div>
     </div>
   );

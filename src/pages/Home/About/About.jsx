@@ -9,7 +9,7 @@ const About = () => {
       >
          <div className="hero bg-base-200 px-12 py-8">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src="/Atish.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                <img src="/Atish.jpg" className="max-auto rounded-lg shadow-2xl" />
                 <div>
                     <h1 className="text-4xl font-bold mb-2">About Me</h1>
                     <hr className="border-b-4 border-yellow-500 w-28 mt-2" />
