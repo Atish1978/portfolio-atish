@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-    const { img, projectName, projectFeatures, tools, site } = project;
+    const { img, projectName, projectFeatures, tools, site, github } = project;
 
     const handleClickSite = () => {
 
@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
     };
     const handleClickGithub = () => {
 
-        window.open(site, '_blank');
+        window.open(github, '_blank');
 
     };
 
@@ -32,8 +32,8 @@ const ProjectCard = ({ project }) => {
                     <h2 className="text-sm text-left ps-2">{tools}</h2>
                 </div>
                 <div className="flex gap-2">
-                <Link ><button onClick={handleClickSite} className="btn btn-warning">Visit Site</button></Link>
-                <Link ><button onClick={handleClickGithub } className="btn btn-warning">GitHub</button></Link>
+                <Link ><button onClick={handleClickSite} className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-yellow-400 hover:bg-yellow-500">Visit Site</button></Link>
+                <Link ><button onClick={handleClickGithub} className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-yellow-400 hover:bg-yellow-500">GitHub</button></Link>
                 </div>
 
             </div>

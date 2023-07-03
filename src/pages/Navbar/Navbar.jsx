@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-black h-auto flex-none">
       <div className="navbar-start ps-6 flex-row">
-        <img className="w-14 ms-8 rounded-full" src="/Atish.jpg" alt="" />
+        <img className="w-14 ms-8 rounded-full hidden lg:block" src="/Atish.jpg" alt="" />
         <div>
           <p className="ps-4 text-2xl text-yellow-400 font-bold"></p>
           <p className="ps-4 text-1xl text-white"></p>

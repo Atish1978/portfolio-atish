@@ -10,7 +10,7 @@
         ],
         "tools": "HTML | CSS",
         "site": "https://atish1978.github.io/assignment-second",
-        "github": ""
+        "github": "https://github.com/Atish1978/assignment-second"
     },
     {
         "id": "2",
@@ -23,7 +23,7 @@
         ],
         "tools": "HTML | CSS | JavaScript",
         "site": "https://fancy-cobbler-d2c5c3.netlify.app",
-        "github": ""
+        "github": "https://github.com/programming-hero-web-course2/b7a5-geometry-genius-assignment-Atish1978"
     },
     {
         "id": "3",
@@ -36,6 +36,6 @@
         ],
         "tools": "Tailwind CSS | DaisyUI | React | Imgbb | React Components | Vercel | Firebase | mongodb",
         "site": "https://sports-summer-camp.web.app",
-        "github": ""
+        "github": "https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-Atish1978"
     }
 ]

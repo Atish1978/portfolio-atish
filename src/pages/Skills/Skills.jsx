@@ -6,7 +6,8 @@ const skillsName = [
   { name: 'Tailwind 80%', level: 80 },
   { name: 'Bootstrap 75%', level: 75 },
   { name: 'JavaScript 65%', level: 65 },
-  { name: 'React 70%', level: 70 }
+  { name: 'React 70%', level: 70 },
+  { name: 'MongoDB 40%', level: 40 }
 ];
 
 const ProgressBar = ({ name, level }) => {

@@ -23,12 +23,12 @@
     }
     
     .menu {
-      flex-direction: column;
-      align-items: 96px;
+      flex-direction: row;
+      align-items: center;
     
     }
     
     .menu li {
-      margin: 5px 0;
+      margin: 2px 0;
     }
   }
